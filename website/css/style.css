@@ -1,0 +1,117 @@
+body{
+    background-color:  #F4F4F4;
+    margin: 0;
+    padding: 0;
+    font-family: Ubuntu;
+}
+:root {
+  --bg: #020E16;
+  --w: #fff;
+}
+.dropdown-menu{
+    background-color: var(--bg);
+}
+.padding_adjust{
+    padding: 0 50px;
+}
+.top_part {
+    background-color: var(--bg);
+    color: var(--w);
+    height: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    position: relative;
+    width: 100%;
+}
+.date_top{
+    display: none;
+}
+.main_logo_add{
+    margin-top: 10px;
+}
+.navbar {
+    color: var(--w);
+    background-color: var(--bg);
+}
+.navbar a{
+    color: var(--w);
+}
+.navbar_part .navbar, .navbar_part .navbar-brand{
+    padding: 0% !important;
+}
+ .navbar_part .container-fluid{
+    padding: 0 30px 0 0;
+} 
+.navbar_part{
+    background-color: var(--w);
+}
+
+.nav-item{
+    padding: 10px 18px;
+}
+
+.mobile_view_add{
+    padding: 10px 0;
+    display: none;
+}
+.main_news_head .fa-solid{
+    padding-right: 20px;
+}
+.main_news{
+    width: 100%;
+    background-color: white;
+    padding: 30px;
+    border-radius: 20px;
+}
+.nav_logo{
+    display: none;
+    width: 200px;
+}
+
+
+
+
+
+
+
+.scrrr{
+    height: 1222px;
+    background-color: red;
+}
+
+
+
+
+
+@media screen and (max-width: 1110px) and (min-width: 991px){
+    .nav-item{
+        padding: 2px;
+    }
+}
+@media screen and (max-width: 550px) and (min-width: 1px){
+    .padding_adjust{
+        padding: 5px 10px;
+    }
+    .nav_logo{
+        width: 140px;
+    }
+}
+/*992*/
+@media screen and (max-width: 991px) {
+  .main_logo_add {
+    display: none;
+  }
+  .mobile_view_add, .nav_logo{
+    display: block;
+  }
+  .date_top{
+    display: inline-block;
+  }
+  .navbar{
+    background-color: var(--w);
+    color: var(--bg);
+  }
+  .navbar a{
+    color: var(--bg);
+  }
+}
