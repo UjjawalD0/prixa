@@ -4,6 +4,9 @@ body{
     padding: 0;
     font-family: Ubuntu;
 }
+h1,h2,h3,h4,h5,h6{
+    font-weight: 550;
+}
 :root {
   --bg: #020E16;
   --w: #fff;
@@ -14,6 +17,9 @@ body{
 .padding_adjust{
     padding: 0 50px;
 }
+.padding_adjust2{
+    padding: 20px 50px;
+}
 .top_part {
     background-color: var(--bg);
     color: var(--w);
@@ -23,7 +29,7 @@ body{
     position: relative;
     width: 100%;
 }
-.date_top{
+.date_top, .pardesh_body_2_text{
     display: none;
 }
 .main_logo_add{
@@ -44,6 +50,7 @@ body{
 } 
 .navbar_part{
     background-color: var(--w);
+    margin-bottom: 20px;
 }
 
 .nav-item{
@@ -62,16 +69,79 @@ body{
     background-color: white;
     padding: 30px;
     border-radius: 20px;
+    box-shadow: 0px 3px 5px 5px #f0f0f0;
 }
 .nav_logo{
     display: none;
     width: 200px;
 }
 
+.kalaShahitya_head, .pardesh_head, .sport_head{
+        box-shadow: 0px 7px 5px 3px #dedede;
+        margin-bottom: 10px;
+        padding: 10px 15px;
+}
+.kalaShahitya_head h4, .pardesh_head h4, .sport_head h4{
+    margin: 0;
+}
+.sport_body_2 .row, .kala_body .col-lg-6, .kala_body .col-md-6{
+    margin-bottom: 10px;
+}
 
 
+.pradesh_navTab{
+    overflow: auto;
+    width: 100%;
+    height: 70px;
+}
+.scroll_box{
+    overflow: auto;
+}
+.scrollmenu {
+    width: 600px;
+  overflow: auto;
+  white-space: nowrap;
+}
+.scrollmenu a {
+  display: inline-block;
+  color: var(--bg);
+  text-align: center;
+  
+  text-decoration: none;
+}
 
+.scrollmenu a:hover {
+  background-color: var(--bg);
+  color: var(--w);
+}
+.scrollmenu .nav-item{
+    padding: 0;
+    margin: 0;
+}
 
+.img_card{
+    position: relative;
+    border-radius: 3%;
+    border: 2px solid gray;
+    overflow: hidden;
+}
+
+.img_title{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 5px 10px;
+    color: var(--w);
+    background-color: rgba(0, 0, 0, .60);
+}
+.fotterpart, .fotter_ribber{
+    color: var(--w);
+    background-color: var(--bg);
+}
+.fotterpart p{
+    padding: 0 0 10px 0;
+    margin: 0;
+}
 
 
 .scrrr{
@@ -84,24 +154,27 @@ body{
 
 
 @media screen and (max-width: 1110px) and (min-width: 991px){
-    .nav-item{
+    /*.nav-item{
         padding: 2px;
-    }
+    }*/
 }
 @media screen and (max-width: 550px) and (min-width: 1px){
-    .padding_adjust{
-        padding: 5px 10px;
-    }
+    
     .nav_logo{
-        width: 140px;
+        width: 180px;
+        padding: 5px 0;
     }
+    
 }
 /*992*/
 @media screen and (max-width: 991px) {
-  .main_logo_add {
+  .main_logo_add  {
     display: none;
   }
-  .mobile_view_add, .nav_logo{
+  .navbar_part{
+    margin: 0;
+  }
+  .mobile_view_add, .nav_logo, .pardesh_body_2_text{
     display: block;
   }
   .date_top{
@@ -114,4 +187,10 @@ body{
   .navbar a{
     color: var(--bg);
   }
+  .padding_adjust{
+    padding: 0 20px;
+    }
+    .padding_adjust2{
+        padding: 10px 20px;
+    }
 }

@@ -4,15 +4,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- font-awesome for icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+    <!-- owl carousel for slider-->
+    <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
+
+
+    <!-- my style -->
     <link rel="stylesheet" href="css/style.css">
     <title>Prixa</title>
 </head>
 <body>
-    
-  <div class="top_part padding_adjust"  >
+  
+  <!-- live and social media part -->  
+  <div class="top_part padding_adjust">
     <div class="row">
       <div class="col-4">
         <label>Live</label> <img src="img/live.png" width="10px">
@@ -20,9 +30,9 @@
       </div>
       <div class="col-8" style="text-align: right;">
         <label class="date_top">९/०९/२०७९ </label>
-        <select style="background-color: #D6D6D6;border: none;padding: 2px 5px; color: white;">
-            <option>नेपाली</option>
-            <option>English</option>
+        <select style="background-color: rgba(0, 0, 0, .0);border: none;padding: 2px 5px; color: white;">
+            <option style="background-color:black;">नेपाली</option>
+            <option style="background-color:black;">English</option>
           </select>
           <i class="fa-brands fa-facebook" style="padding:0 10px"></i>
           <i class="fa-brands fa-youtube"></i>
@@ -42,14 +52,14 @@
         
       </div>
     </div>
-    
   </div>
 
-<div class="navbar_part sticky-top" id="navbar_part" >
+  <!-- main navbar -->
+  <div class="navbar_part sticky-top" id="navbar_part" >
     <nav class="navbar navbar-expand-lg ">
         <div class="container-fluid">
           <a class="navbar-brand" href="index.html">
-            <img  class="nav_logo" src="img/logo.png" alt="" >
+            <img  class="nav_logo" src="img/logo.png" alt=""  >
           </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
             <i class="fa-solid fa-bars"></i>
@@ -102,49 +112,1279 @@
           </div>
         </div>
       </nav>
-    </div>
-    <div class="mobile_view_add" style="text-align:center;">
-        <img src="img/add.png" width="60%">
-        
-      </div>
+  </div>
 
+    <!-- add part -->
+    <div class="mobile_view_add padding_adjust2" style="text-align:center;">
+        <img src="img/add.png" width="90%">
+    </div>
+
+      
+      <!-- main breaking news part with owl scroll -->
+    <div class="owl-carousel owl-theme">
       <div class="main_news_box padding_adjust">
-        <div class="main_news">
-          <div class="main_news_head">
-            <h2>
-              नेपालका लािग कप्तान रोहितको अर्धशतक
-            </h2>
-            <i class="fa-solid fa-pen"></i> <label style="padding-right: 20px;">सागर चन्द, विजय पराजुली</label> 
-            <i class="fa-solid fa-clock"></i><label>३१ मिनेट अगाडि</label>
+          <div class="main_news">
+            <div class="main_news_head">
+              <h2>
+                नेपालका लािग कप्तान रोहितको अर्धशतक
+              </h2>
+              <i class="fa-solid fa-pen"></i> <label style="padding-right: 20px;">सागर चन्द, विजय पराजुली</label> 
+              <i class="fa-solid fa-clock"></i><label>३१ मिनेट अगाडि</label>
+            </div>
+            <div class="main_news_img">
+              <img src="img/1.jpg" width="100%;" style="padding: 20px 0">
+            </div>
+            <div>
+              <span>
+                ९ फागुन, काठमाडौं । लिग टू क्रिकेटमा नेपालले स्कटल्याण्डमाथि रोमाञ्चक जित निकालेको छ । २ विकेटको यो जितसंगै नेपालले सिरिज क्लिन स्वीप गरेको छ ।...
+              </span>
+            </div>
           </div>
-          <div class="main_news_img">
-            <img src="img/Rohit_Poudel_j9mrpfDzm6.jpg" width="100%;" style="padding: 20px 0">
+        </div>
+      
+      <div>
+        <div class="main_news_box padding_adjust">
+            <div class="main_news">
+              <div class="main_news_head">
+                <h2>
+                  नेपालका लािग कप्तान रोहितको अर्धशतक
+                </h2>
+                <i class="fa-solid fa-pen"></i> <label style="padding-right: 20px;">सागर चन्द, विजय पराजुली</label> 
+                <i class="fa-solid fa-clock"></i><label>३१ मिनेट अगाडि</label>
+              </div>
+              <div class="main_news_img">
+                <img src="img/3.jpg" width="100%;" style="padding: 20px 0">
+              </div>
+              <div>
+                <span>
+                  ९ फागुन, काठमाडौं । लिग टू क्रिकेटमा नेपालले स्कटल्याण्डमाथि रोमाञ्चक जित निकालेको छ । २ विकेटको यो जितसंगै नेपालले सिरिज क्लिन स्वीप गरेको छ ।...
+                </span>
+              </div>
+            </div>
           </div>
-          <div>
-            <span>
-              ९ फागुन, काठमाडौं । लिग टू क्रिकेटमा नेपालले स्कटल्याण्डमाथि रोमाञ्चक जित निकालेको छ । २ विकेटको यो जितसंगै नेपालले सिरिज क्लिन स्वीप गरेको छ ।...
-            </span>
+      </div>
+      <div>
+        <div class="main_news_box padding_adjust">
+            <div class="main_news">
+              <div class="main_news_head">
+                <h2>
+                  स्वास्थ्यमन्त्री गिरी स्वीटजरल्याण्ड प्रस्थान
+                </h2>
+                <i class="fa-solid fa-pen"></i> <label style="padding-right: 20px;">सागर चन्द, विजय पराजुली</label> 
+                <i class="fa-solid fa-clock"></i><label>३१ मिनेट अगाडि</label>
+              </div>
+              <div class="main_news_img">
+                <img src="img/2.jpg" width="100%;" style="padding: 20px 0">
+              </div>
+              <div>
+                <span>
+                  ९ फागुन, काठमाडौं । लिग टू क्रिकेटमा नेपालले स्कटल्याण्डमाथि रोमाञ्चक जित निकालेको छ । २ विकेटको यो जितसंगै नेपालले सिरिज क्लिन स्वीप गरेको छ ।...
+                </span>
+              </div>
+            </div>
+          </div>
+      </div>
+      <div>
+        <div class="main_news_box padding_adjust">
+            <div class="main_news">
+              <div class="main_news_head">
+                <h2>
+                  नेपालका लािग कप्तान रोहितको अर्धशतक
+                </h2>
+                <i class="fa-solid fa-pen"></i> <label style="padding-right: 20px;">सागर चन्द, विजय पराजुली</label> 
+                <i class="fa-solid fa-clock"></i><label>३१ मिनेट अगाडि</label>
+              </div>
+              <div class="main_news_img">
+                <img src="img/3.jpg" width="100%;" style="padding: 20px 0">
+              </div>
+              <div>
+                <span>
+                  ९ फागुन, काठमाडौं । लिग टू क्रिकेटमा नेपालले स्कटल्याण्डमाथि रोमाञ्चक जित निकालेको छ । २ विकेटको यो जितसंगै नेपालले सिरिज क्लिन स्वीप गरेको छ ।...
+                </span>
+              </div>
+            </div>
+          </div>
+      </div>
+      <div>
+        <div class="main_news_box padding_adjust">
+            <div class="main_news">
+              <div class="main_news_head">
+                <h2>
+                  नेपालका लािग कप्तान रोहितको अर्धशतक
+                </h2>
+                <i class="fa-solid fa-pen"></i> <label style="padding-right: 20px;">सागर चन्द, विजय पराजुली</label> 
+                <i class="fa-solid fa-clock"></i><label>३१ मिनेट अगाडि</label>
+              </div>
+              <div class="main_news_img">
+                <img src="img/4.jpg" width="100%;" style="padding: 20px 0">
+              </div>
+              <div>
+                <span>
+                  ९ फागुन, काठमाडौं । लिग टू क्रिकेटमा नेपालले स्कटल्याण्डमाथि रोमाञ्चक जित निकालेको छ । २ विकेटको यो जितसंगै नेपालले सिरिज क्लिन स्वीप गरेको छ ।...
+                </span>
+              </div>
+            </div>
+          </div>
+      </div>
+      <div>
+        <div class="main_news_box padding_adjust">
+            <div class="main_news">
+              <div class="main_news_head">
+                <h2>
+                  नेपालका लािग कप्तान रोहितको अर्धशतक
+                </h2>
+                <i class="fa-solid fa-pen"></i> <label style="padding-right: 20px;">सागर चन्द, विजय पराजुली</label> 
+                <i class="fa-solid fa-clock"></i><label>३१ मिनेट अगाडि</label>
+              </div>
+              <div class="main_news_img">
+                <img src="img/2.jpg" width="100%;" style="padding: 20px 0">
+              </div>
+              <div>
+                <span>
+                  ९ फागुन, काठमाडौं । लिग टू क्रिकेटमा नेपालले स्कटल्याण्डमाथि रोमाञ्चक जित निकालेको छ । २ विकेटको यो जितसंगै नेपालले सिरिज क्लिन स्वीप गरेको छ ।...
+                </span>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+
+    <!-- add part -->
+    <div class="padding_adjust2">
+      <img src="img/add1.gif" width="100%;">
+    </div>
+
+
+    <!-- pardesh -->
+    <div class="pardesh padding_adjust2">
+      <div class="pardesh_head">
+        <div class="row">
+          <div class="col-3">
+            <h4>प्रदेश</h4>
+          </div>
+          <div class="col-9 text-end">
+            <div class="scroll_box">
+              <div class="scrollmenu">
+                <ul class="nav" id="myTab" role="tablist">
+                  <li class="nav-item" role="presentation">
+                    <a class="nav-link active" id="pradeshTab1" data-bs-toggle="tab" data-bs-target="#pradesh1" type="button" role="tab" aria-controls="home" aria-selected="true">प्रदेश 1</a>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <a class="nav-link"  id="pradeshTab2" data-bs-toggle="tab" data-bs-target="#pradesh2" type="button" role="tab" aria-controls="profile" aria-selected="false">प्रदेश 2</a>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <a class="nav-link"  id="pradeshTab3" data-bs-toggle="tab" data-bs-target="#pradesh3" type="button" role="tab" aria-controls="contact" aria-selected="false">प्रदेश 3</a>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <a class="nav-link"  id="pradeshTab4" data-bs-toggle="tab" data-bs-target="#pradesh4" type="button" role="tab" aria-controls="contact" aria-selected="false">प्रदेश 4</a>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <a class="nav-link"  id="pradeshTab5" data-bs-toggle="tab" data-bs-target="#pradesh5" type="button" role="tab" aria-controls="contact" aria-selected="false">प्रदेश 5</a>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <a class="nav-link"  id="pradeshTab6" data-bs-toggle="tab" data-bs-target="#pradesh6" type="button" role="tab" aria-controls="contact" aria-selected="false">प्रदेश 6</a>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <a class="nav-link"  id="pradeshTab7" data-bs-toggle="tab" data-bs-target="#pradesh7" type="button" role="tab" aria-controls="contact" aria-selected="false">प्रदेश 7</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
           </div>
         </div>
       </div>
+      <div class="pardesh_body">
+        <div class="tab-content" id="myTabContent">
+          <div class="tab-pane fade show active" id="pradesh1" role="tabpanel" aria-labelledby="pradeshTab1">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-lg-5">
+                  <div class="pardesh_body_1">
+                    <img src="img/2.jpg" width="100%;">
+                    <h2 style="padding-top: 20px;">
+                      प्रदेश 1 यू–१९ क्रिकेट टोलीको बिदाइ
+                    </h2>
+                    <label style="text-align:justify;">
+                      संयुक्त अरब इमिरेट्स (युएई) मा बिहीबारदेखि सुरु हुने आइसिसी यू–१९ विश्वकप एसिया छनोटमा सहभागी हुने नेपाली युवा क्रिकेट टोलीको बिदाइ गरिएको छ । नेपाल क्रिकेट सङ्घ (क्यान) ले बुधबार (आज)...
+                    </label>
+                  </div>
+                </div>
+                <div class="col-lg-4">
+                  <div class="pardesh_body_2">
+                    <div class="row">
+                      <div class="col-4">
+                        <img src="img/2.jpg" width="100%;">
+                      </div>
+                      <div class="col-8">
+                        <h5>
+                          लिभरपुलमाथि रियलको सानदार जित
+                        </h5>
+                        <label class="pardesh_body_2_text" style="text-align:justify;">
+                            नेपाल क्रिकेट सङ्घ (क्यान) ले बुधबार (आज)...
+                        </label>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-4">
+                        <img src="img/3.jpg" width="100%;">
+                      </div>
+                      <div class="col-8">
+                        <h5>
+                          लिभरपुलमाथि रियलको सानदार जित
+                        </h5>
+                        <label class="pardesh_body_2_text" style="text-align:justify;">
+                            एसिया छनोटमा सहभागी हुने नेपाली युवा क्रिकेट टोलीको बिदाइ गरिएको छ ।  (आज)...
+                        </label>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-4">
+                        <img src="img/1.jpg" width="100%;">
+                      </div>
+                      <div class="col-8">
+                        <h5>
+                          लिभरपुलमाथि रियलको सानदार जित
+                        </h5>
+                        <label class="pardesh_body_2_text" style="text-align:justify;">
+                            विश्वकप एसिया छनोटमा सहभागी हुने नेपाली  ले बुधबार (आज)...
+                        </label>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-4">
+                        <img src="img/2.jpg" width="100%;">
+                      </div>
+                      <div class="col-8">
+                        <h5>
+                          लिभरपुलमाथि रियलको सानदार जित
+                        </h5>
+                        <label class="pardesh_body_2_text" style="text-align:justify;">
+                            संयुक्त अरब इमिरेट्स (युएई) मा बिहीबारदेखि सुरु ...
+                        </label>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-4">
+                        <img src="img/add.png" width="100%;">
+                      </div>
+                      <div class="col-8">
+                        <h5>
+                          लिभरपुलमाथि रियलको सानदार जित
+                        </h5>
+                        <label class="pardesh_body_2_text" style="text-align:justify;">
+                            नेपाल क्रिकेट सङ्घ (क्यान) ले बुधबार (आज)...
+                        </label>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-4">
+                        <img src="img/4.jpg" width="100%;">
+                      </div>
+                      <div class="col-8">
+                        <h5>
+                          लिभरपुलमाथि रियलको सानदार जित
+                        </h5>
+                        <label class="pardesh_body_2_text" style="text-align:justify;">
+                            संयुक्त अरब इमिरेट्स (युएई) मा बिहीबारदेखि...
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3">
+                  <div class="sport_body_3">
+                    <div class="row">
+                      <div class="col-lg-12 col-6">
+                        <div class="pardesh_body_1">
+                          <img src="img/4.jpg" width="100%;">
+                          <h4 style="padding-top: 20px;">
+                            क्रिकेट टोलीको बिदाइ
+                          </h4>
+                        </div>
+                      </div>
+                      <div class="col-lg-12 col-6">
+                        <div class="sport_body_1">
+                          <img src="img/4.jpg" width="100%;">
+                          <h4 style="padding-top: 20px;">
+                            क्रिकेट टोलीको बिदाइ
+                          </h4>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="pradesh2" role="tabpanel" aria-labelledby="pradeshTab2">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-lg-5">
+                  <div class="sport_body_1">
+                    <img src="img/3.jpg" width="100%;">
+                    <h2 style="padding-top: 20px;">
+                      प्रदेश 2 यू–१९ क्रिकेट टोलीको बिदाइ
+                    </h2>
+                    <label style="text-align:justify;">
+                      संयुक्त अरब इमिरेट्स (युएई) मा बिहीबारदेखि सुरु हुने आइसिसी यू–१९ विश्वकप एसिया छनोटमा सहभागी हुने नेपाली युवा क्रिकेट टोलीको बिदाइ गरिएको छ । नेपाल क्रिकेट सङ्घ (क्यान) ले बुधबार (आज)...
+                    </label>
+                  </div>
+                </div>
+                <div class="col-lg-4">
+                  <div class="sport_body_2">
+                    <div class="row">
+                      <div class="col-4">
+                        <img src="img/2.jpg" width="100%;">
+                      </div>
+                      <div class="col-8">
+                        <h5>
+                          लिभरपुलमाथि रियलको सानदार जित
+                        </h5>
+                        <label class="pardesh_body_2_text" style="text-align:justify;">
+                            संयुक्त अरब इमिरेट्स (युएई) मा बिहीबारदेखि सुरु हुने आइसिसी यू–१९ विश्वकप एसिया छनोटमा सहभागी हुने नेपाली युवा क्रिकेट टोलीको बिदाइ गरिएको छ । नेपाल क्रिकेट सङ्घ (क्यान) ले बुधबार (आज)...
+                        </label>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-4">
+                        <img src="img/3.jpg" width="100%;">
+                      </div>
+                      <div class="col-8">
+                        <h5>
+                          लिभरपुलमाथि रियलको सानदार जित
+                        </h5>
+                        <label class="pardesh_body_2_text" style="text-align:justify;">
+                            संयुक्त अरब इमिरेट्स (युएई) मा बिहीबारदेखि सुरु हुने आइसिसी यू–१९ विश्वकप एसिया छनोटमा सहभागी हुने नेपाली युवा क्रिकेट टोलीको बिदाइ गरिएको छ । नेपाल क्रिकेट सङ्घ (क्यान) ले बुधबार (आज)...
+                        </label>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-4">
+                        <img src="img/1.jpg" width="100%;">
+                      </div>
+                      <div class="col-8">
+                        <h5>
+                          लिभरपुलमाथि रियलको सानदार जित
+                        </h5>
+                        <label class="pardesh_body_2_text" style="text-align:justify;">
+                            संयुक्त अरब इमिरेट्स (युएई) मा बिहीबारदेखि सुरु हुने आइसिसी यू–१९ विश्वकप एसिया छनोटमा सहभागी हुने नेपाली युवा क्रिकेट टोलीको बिदाइ गरिएको छ । नेपाल क्रिकेट सङ्घ (क्यान) ले बुधबार (आज)...
+                        </label>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-4">
+                        <img src="img/2.jpg" width="100%;">
+                      </div>
+                      <div class="col-8">
+                        <h5>
+                          लिभरपुलमाथि रियलको सानदार जित
+                        </h5>
+                        <label class="pardesh_body_2_text" style="text-align:justify;">
+                            संयुक्त अरब इमिरेट्स (युएई) मा बिहीबारदेखि सुरु हुने आइसिसी यू–१९ विश्वकप एसिया छनोटमा सहभागी हुने नेपाली युवा क्रिकेट टोलीको बिदाइ गरिएको छ । नेपाल क्रिकेट सङ्घ (क्यान) ले बुधबार (आज)...
+                        </label>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-4">
+                        <img src="img/add.png" width="100%;">
+                      </div>
+                      <div class="col-8">
+                        <h5>
+                          लिभरपुलमाथि रियलको सानदार जित
+                        </h5>
+                        <label class="pardesh_body_2_text" style="text-align:justify;">
+                            संयुक्त अरब इमिरेट्स (युएई) मा बिहीबारदेखि सुरु हुने आइसिसी यू–१९ विश्वकप एसिया छनोटमा सहभागी हुने नेपाली युवा क्रिकेट टोलीको बिदाइ गरिएको छ । नेपाल क्रिकेट सङ्घ (क्यान) ले बुधबार (आज)...
+                        </label>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-4">
+                        <img src="img/4.jpg" width="100%;">
+                      </div>
+                      <div class="col-8">
+                        <h5>
+                          लिभरपुलमाथि रियलको सानदार जित
+                        </h5>
+                        <label class="pardesh_body_2_text" style="text-align:justify;">
+                            संयुक्त अरब इमिरेट्स (युएई) मा बिहीबारदेखि सुरु हुने आइसिसी यू–१९ विश्वकप एसिया छनोटमा सहभागी हुने नेपाली युवा क्रिकेट टोलीको बिदाइ गरिएको छ । नेपाल क्रिकेट सङ्घ (क्यान) ले बुधबार (आज)...
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3">
+                  <div class="sport_body_3">
+                    <div class="row">
+                      <div class="col-lg-12 col-6">
+                        <div class="sport_body_1">
+                          <img src="img/4.jpg" width="100%;">
+                          <h4 style="padding-top: 20px;">
+                            क्रिकेट टोलीको बिदाइ
+                          </h4>
+                        </div>
+                      </div>
+                      <div class="col-lg-12 col-6">
+                        <div class="sport_body_1">
+                          <img src="img/4.jpg" width="100%;">
+                          <h4 style="padding-top: 20px;">
+                            क्रिकेट टोलीको बिदाइ
+                          </h4>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="pradesh3" role="tabpanel" aria-labelledby="pradeshTab3">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-lg-5">
+                  <div class="sport_body_1">
+                    <img src="img/4.jpg" width="100%;">
+                    <h2 style="padding-top: 20px;">
+                      प्रदेश 3 यू–१९ क्रिकेट टोलीको बिदाइ
+                    </h2>
+                    <label style="text-align:justify;">
+                      संयुक्त अरब इमिरेट्स (युएई) मा बिहीबारदेखि सुरु हुने आइसिसी यू–१९ विश्वकप एसिया छनोटमा सहभागी हुने नेपाली युवा क्रिकेट टोलीको बिदाइ गरिएको छ । नेपाल क्रिकेट सङ्घ (क्यान) ले बुधबार (आज)...
+                    </label>
+                  </div>
+                </div>
+                <div class="col-lg-4">
+                  <div class="sport_body_2">
+                    <div class="row">
+                      <div class="col-4">
+                        <img src="img/2.jpg" width="100%;">
+                      </div>
+                      <div class="col-8">
+                        <h5>
+                          लिभरपुलमाथि रियलको सानदार जित
+                        </h5>
+                        <label class="pardesh_body_2_text" style="text-align:justify;">
+                            संयुक्त अरब इमिरेट्स (युएई) मा बिहीबारदेखि सुरु हुने आइसिसी यू–१९ विश्वकप एसिया छनोटमा सहभागी हुने नेपाली युवा क्रिकेट टोलीको बिदाइ गरिएको छ । नेपाल क्रिकेट सङ्घ (क्यान) ले बुधबार (आज)...
+                        </label>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-4">
+                        <img src="img/3.jpg" width="100%;">
+                      </div>
+                      <div class="col-8">
+                        <h5>
+                          लिभरपुलमाथि रियलको सानदार जित
+                        </h5>
+                        <label class="pardesh_body_2_text" style="text-align:justify;">
+                            संयुक्त अरब इमिरेट्स (युएई) मा बिहीबारदेखि सुरु हुने आइसिसी यू–१९ विश्वकप एसिया छनोटमा सहभागी हुने नेपाली युवा क्रिकेट टोलीको बिदाइ गरिएको छ । नेपाल क्रिकेट सङ्घ (क्यान) ले बुधबार (आज)...
+                        </label>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-4">
+                        <img src="img/1.jpg" width="100%;">
+                      </div>
+                      <div class="col-8">
+                        <h5>
+                          लिभरपुलमाथि रियलको सानदार जित
+                        </h5>
+                        <label class="pardesh_body_2_text" style="text-align:justify;">
+                            संयुक्त अरब इमिरेट्स (युएई) मा बिहीबारदेखि सुरु हुने आइसिसी यू–१९ विश्वकप एसिया छनोटमा सहभागी हुने नेपाली युवा क्रिकेट टोलीको बिदाइ गरिएको छ । नेपाल क्रिकेट सङ्घ (क्यान) ले बुधबार (आज)...
+                        </label>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-4">
+                        <img src="img/2.jpg" width="100%;">
+                      </div>
+                      <div class="col-8">
+                        <h5>
+                          लिभरपुलमाथि रियलको सानदार जित
+                        </h5>
+                        <label class="pardesh_body_2_text" style="text-align:justify;">
+                            संयुक्त अरब इमिरेट्स (युएई) मा बिहीबारदेखि सुरु हुने आइसिसी यू–१९ विश्वकप एसिया छनोटमा सहभागी हुने नेपाली युवा क्रिकेट टोलीको बिदाइ गरिएको छ । नेपाल क्रिकेट सङ्घ (क्यान) ले बुधबार (आज)...
+                        </label>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-4">
+                        <img src="img/add.png" width="100%;">
+                      </div>
+                      <div class="col-8">
+                        <h5>
+                          लिभरपुलमाथि रियलको सानदार जित
+                        </h5>
+                        <label class="pardesh_body_2_text" style="text-align:justify;">
+                            संयुक्त अरब इमिरेट्स (युएई) मा बिहीबारदेखि सुरु हुने आइसिसी यू–१९ विश्वकप एसिया छनोटमा सहभागी हुने नेपाली युवा क्रिकेट टोलीको बिदाइ गरिएको छ । नेपाल क्रिकेट सङ्घ (क्यान) ले बुधबार (आज)...
+                        </label>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-4">
+                        <img src="img/4.jpg" width="100%;">
+                      </div>
+                      <div class="col-8">
+                        <h5>
+                          लिभरपुलमाथि रियलको सानदार जित
+                        </h5>
+                        <label class="pardesh_body_2_text" style="text-align:justify;">
+                            संयुक्त अरब इमिरेट्स (युएई) मा बिहीबारदेखि सुरु हुने आइसिसी यू–१९ विश्वकप एसिया छनोटमा सहभागी हुने नेपाली युवा क्रिकेट टोलीको बिदाइ गरिएको छ । नेपाल क्रिकेट सङ्घ (क्यान) ले बुधबार (आज)...
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3">
+                  <div class="sport_body_3">
+                    <div class="row">
+                      <div class="col-lg-12 col-6">
+                        <div class="sport_body_1">
+                          <img src="img/4.jpg" width="100%;">
+                          <h4 style="padding-top: 20px;">
+                            क्रिकेट टोलीको बिदाइ
+                          </h4>
+                        </div>
+                      </div>
+                      <div class="col-lg-12 col-6">
+                        <div class="sport_body_1">
+                          <img src="img/4.jpg" width="100%;">
+                          <h4 style="padding-top: 20px;">
+                            क्रिकेट टोलीको बिदाइ
+                          </h4>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="pradesh4" role="tabpanel" aria-labelledby="pradeshTab4">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-lg-5">
+                  <div class="sport_body_1">
+                    <img src="img/2.jpg" width="100%;">
+                    <h2 style="padding-top: 20px;">
+                      प्रदेश 4 यू–१९ क्रिकेट टोलीको बिदाइ
+                    </h2>
+                    <label style="text-align:justify;">
+                      संयुक्त अरब इमिरेट्स (युएई) मा बिहीबारदेखि सुरु हुने आइसिसी यू–१९ विश्वकप एसिया छनोटमा सहभागी हुने नेपाली युवा क्रिकेट टोलीको बिदाइ गरिएको छ । नेपाल क्रिकेट सङ्घ (क्यान) ले बुधबार (आज)...
+                    </label>
+                  </div>
+                </div>
+                <div class="col-lg-4">
+                  <div class="sport_body_2">
+                    <div class="row">
+                      <div class="col-4">
+                        <img src="img/2.jpg" width="100%;">
+                      </div>
+                      <div class="col-8">
+                        <h5>
+                          लिभरपुलमाथि रियलको सानदार जित
+                        </h5>
+                        <label class="pardesh_body_2_text" style="text-align:justify;">
+                            संयुक्त अरब इमिरेट्स (युएई) मा बिहीबारदेखि सुरु हुने आइसिसी यू–१९ विश्वकप एसिया छनोटमा सहभागी हुने नेपाली युवा क्रिकेट टोलीको बिदाइ गरिएको छ । नेपाल क्रिकेट सङ्घ (क्यान) ले बुधबार (आज)...
+                        </label>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-4">
+                        <img src="img/3.jpg" width="100%;">
+                      </div>
+                      <div class="col-8">
+                        <h5>
+                          लिभरपुलमाथि रियलको सानदार जित
+                        </h5>
+                        <label class="pardesh_body_2_text" style="text-align:justify;">
+                            संयुक्त अरब इमिरेट्स (युएई) मा बिहीबारदेखि सुरु हुने आइसिसी यू–१९ विश्वकप एसिया छनोटमा सहभागी हुने नेपाली युवा क्रिकेट टोलीको बिदाइ गरिएको छ । नेपाल क्रिकेट सङ्घ (क्यान) ले बुधबार (आज)...
+                        </label>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-4">
+                        <img src="img/1.jpg" width="100%;">
+                      </div>
+                      <div class="col-8">
+                        <h5>
+                          लिभरपुलमाथि रियलको सानदार जित
+                        </h5>
+                        <label class="pardesh_body_2_text" style="text-align:justify;">
+                            संयुक्त अरब इमिरेट्स (युएई) मा बिहीबारदेखि सुरु हुने आइसिसी यू–१९ विश्वकप एसिया छनोटमा सहभागी हुने नेपाली युवा क्रिकेट टोलीको बिदाइ गरिएको छ । नेपाल क्रिकेट सङ्घ (क्यान) ले बुधबार (आज)...
+                        </label>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-4">
+                        <img src="img/2.jpg" width="100%;">
+                      </div>
+                      <div class="col-8">
+                        <h5>
+                          लिभरपुलमाथि रियलको सानदार जित
+                        </h5>
+                        <label class="pardesh_body_2_text" style="text-align:justify;">
+                            संयुक्त अरब इमिरेट्स (युएई) मा बिहीबारदेखि सुरु हुने आइसिसी यू–१९ विश्वकप एसिया छनोटमा सहभागी हुने नेपाली युवा क्रिकेट टोलीको बिदाइ गरिएको छ । नेपाल क्रिकेट सङ्घ (क्यान) ले बुधबार (आज)...
+                        </label>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-4">
+                        <img src="img/add.png" width="100%;">
+                      </div>
+                      <div class="col-8">
+                        <h5>
+                          लिभरपुलमाथि रियलको सानदार जित
+                        </h5>
+                        <label class="pardesh_body_2_text" style="text-align:justify;">
+                            संयुक्त अरब इमिरेट्स (युएई) मा बिहीबारदेखि सुरु हुने आइसिसी यू–१९ विश्वकप एसिया छनोटमा सहभागी हुने नेपाली युवा क्रिकेट टोलीको बिदाइ गरिएको छ । नेपाल क्रिकेट सङ्घ (क्यान) ले बुधबार (आज)...
+                        </label>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-4">
+                        <img src="img/4.jpg" width="100%;">
+                      </div>
+                      <div class="col-8">
+                        <h5>
+                          लिभरपुलमाथि रियलको सानदार जित
+                        </h5>
+                        <label class="pardesh_body_2_text" style="text-align:justify;">
+                            संयुक्त अरब इमिरेट्स (युएई) मा बिहीबारदेखि सुरु हुने आइसिसी यू–१९ विश्वकप एसिया छनोटमा सहभागी हुने नेपाली युवा क्रिकेट टोलीको बिदाइ गरिएको छ । नेपाल क्रिकेट सङ्घ (क्यान) ले बुधबार (आज)...
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3">
+                  <div class="sport_body_3">
+                    <div class="row">
+                      <div class="col-lg-12 col-6">
+                        <div class="sport_body_1">
+                          <img src="img/4.jpg" width="100%;">
+                          <h4 style="padding-top: 20px;">
+                            क्रिकेट टोलीको बिदाइ
+                          </h4>
+                        </div>
+                      </div>
+                      <div class="col-lg-12 col-6">
+                        <div class="sport_body_1">
+                          <img src="img/4.jpg" width="100%;">
+                          <h4 style="padding-top: 20px;">
+                            क्रिकेट टोलीको बिदाइ
+                          </h4>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="pradesh5" role="tabpanel" aria-labelledby="pradeshTab5">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-lg-5">
+                  <div class="sport_body_1">
+                    <img src="img/1.jpg" width="100%;">
+                    <h2 style="padding-top: 20px;">
+                      प्रदेश 5 यू–१९ क्रिकेट टोलीको बिदाइ
+                    </h2>
+                    <label style="text-align:justify;">
+                      संयुक्त अरब इमिरेट्स (युएई) मा बिहीबारदेखि सुरु हुने आइसिसी यू–१९ विश्वकप एसिया छनोटमा सहभागी हुने नेपाली युवा क्रिकेट टोलीको बिदाइ गरिएको छ । नेपाल क्रिकेट सङ्घ (क्यान) ले बुधबार (आज)...
+                    </label>
+                  </div>
+                </div>
+                <div class="col-lg-4">
+                  <div class="sport_body_2">
+                    <div class="row">
+                      <div class="col-4">
+                        <img src="img/2.jpg" width="100%;">
+                      </div>
+                      <div class="col-8">
+                        <h5>
+                          लिभरपुलमाथि रियलको सानदार जित
+                        </h5>
+                        <label class="pardesh_body_2_text" style="text-align:justify;">
+                            संयुक्त अरब इमिरेट्स (युएई) मा बिहीबारदेखि सुरु हुने आइसिसी यू–१९ विश्वकप एसिया छनोटमा सहभागी हुने नेपाली युवा क्रिकेट टोलीको बिदाइ गरिएको छ । नेपाल क्रिकेट सङ्घ (क्यान) ले बुधबार (आज)...
+                        </label>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-4">
+                        <img src="img/3.jpg" width="100%;">
+                      </div>
+                      <div class="col-8">
+                        <h5>
+                          लिभरपुलमाथि रियलको सानदार जित
+                        </h5>
+                        <label class="pardesh_body_2_text" style="text-align:justify;">
+                            संयुक्त अरब इमिरेट्स (युएई) मा बिहीबारदेखि सुरु हुने आइसिसी यू–१९ विश्वकप एसिया छनोटमा सहभागी हुने नेपाली युवा क्रिकेट टोलीको बिदाइ गरिएको छ । नेपाल क्रिकेट सङ्घ (क्यान) ले बुधबार (आज)...
+                        </label>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-4">
+                        <img src="img/1.jpg" width="100%;">
+                      </div>
+                      <div class="col-8">
+                        <h5>
+                          लिभरपुलमाथि रियलको सानदार जित
+                        </h5>
+                        <label class="pardesh_body_2_text" style="text-align:justify;">
+                            संयुक्त अरब इमिरेट्स (युएई) मा बिहीबारदेखि सुरु हुने आइसिसी यू–१९ विश्वकप एसिया छनोटमा सहभागी हुने नेपाली युवा क्रिकेट टोलीको बिदाइ गरिएको छ । नेपाल क्रिकेट सङ्घ (क्यान) ले बुधबार (आज)...
+                        </label>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-4">
+                        <img src="img/2.jpg" width="100%;">
+                      </div>
+                      <div class="col-8">
+                        <h5>
+                          लिभरपुलमाथि रियलको सानदार जित
+                        </h5>
+                        <label class="pardesh_body_2_text" style="text-align:justify;">
+                            संयुक्त अरब इमिरेट्स (युएई) मा बिहीबारदेखि सुरु हुने आइसिसी यू–१९ विश्वकप एसिया छनोटमा सहभागी हुने नेपाली युवा क्रिकेट टोलीको बिदाइ गरिएको छ । नेपाल क्रिकेट सङ्घ (क्यान) ले बुधबार (आज)...
+                        </label>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-4">
+                        <img src="img/add.png" width="100%;">
+                      </div>
+                      <div class="col-8">
+                        <h5>
+                          लिभरपुलमाथि रियलको सानदार जित
+                        </h5>
+                        <label class="pardesh_body_2_text" style="text-align:justify;">
+                            संयुक्त अरब इमिरेट्स (युएई) मा बिहीबारदेखि सुरु हुने आइसिसी यू–१९ विश्वकप एसिया छनोटमा सहभागी हुने नेपाली युवा क्रिकेट टोलीको बिदाइ गरिएको छ । नेपाल क्रिकेट सङ्घ (क्यान) ले बुधबार (आज)...
+                        </label>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-4">
+                        <img src="img/4.jpg" width="100%;">
+                      </div>
+                      <div class="col-8">
+                        <h5>
+                          लिभरपुलमाथि रियलको सानदार जित
+                        </h5>
+                        <label class="pardesh_body_2_text" style="text-align:justify;">
+                            संयुक्त अरब इमिरेट्स (युएई) मा बिहीबारदेखि सुरु हुने आइसिसी यू–१९ विश्वकप एसिया छनोटमा सहभागी हुने नेपाली युवा क्रिकेट टोलीको बिदाइ गरिएको छ । नेपाल क्रिकेट सङ्घ (क्यान) ले बुधबार (आज)...
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3">
+                  <div class="sport_body_3">
+                    <div class="row">
+                      <div class="col-lg-12 col-6">
+                        <div class="sport_body_1">
+                          <img src="img/4.jpg" width="100%;">
+                          <h4 style="padding-top: 20px;">
+                            क्रिकेट टोलीको बिदाइ
+                          </h4>
+                        </div>
+                      </div>
+                      <div class="col-lg-12 col-6">
+                        <div class="sport_body_1">
+                          <img src="img/4.jpg" width="100%;">
+                          <h4 style="padding-top: 20px;">
+                            क्रिकेट टोलीको बिदाइ
+                          </h4>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="pradesh6" role="tabpanel" aria-labelledby="pradeshTab6">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-lg-5">
+                  <div class="sport_body_1">
+                    <img src="img/3.jpg" width="100%;">
+                    <h2 style="padding-top: 20px;">
+                      प्रदेश 6 यू–१९ क्रिकेट टोलीको बिदाइ
+                    </h2>
+                    <label style="text-align:justify;">
+                      संयुक्त अरब इमिरेट्स (युएई) मा बिहीबारदेखि सुरु हुने आइसिसी यू–१९ विश्वकप एसिया छनोटमा सहभागी हुने नेपाली युवा क्रिकेट टोलीको बिदाइ गरिएको छ । नेपाल क्रिकेट सङ्घ (क्यान) ले बुधबार (आज)...
+                    </label>
+                  </div>
+                </div>
+                <div class="col-lg-4">
+                  <div class="sport_body_2">
+                    <div class="row">
+                      <div class="col-4">
+                        <img src="img/2.jpg" width="100%;">
+                      </div>
+                      <div class="col-8">
+                        <h5>
+                          लिभरपुलमाथि रियलको सानदार जित
+                        </h5>
+                        <label class="pardesh_body_2_text" style="text-align:justify;">
+                            संयुक्त अरब इमिरेट्स (युएई) मा बिहीबारदेखि सुरु हुने आइसिसी यू–१९ विश्वकप एसिया छनोटमा सहभागी हुने नेपाली युवा क्रिकेट टोलीको बिदाइ गरिएको छ । नेपाल क्रिकेट सङ्घ (क्यान) ले बुधबार (आज)...
+                        </label>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-4">
+                        <img src="img/3.jpg" width="100%;">
+                      </div>
+                      <div class="col-8">
+                        <h5>
+                          लिभरपुलमाथि रियलको सानदार जित
+                        </h5>
+                        <label class="pardesh_body_2_text" style="text-align:justify;">
+                            संयुक्त अरब इमिरेट्स (युएई) मा बिहीबारदेखि सुरु हुने आइसिसी यू–१९ विश्वकप एसिया छनोटमा सहभागी हुने नेपाली युवा क्रिकेट टोलीको बिदाइ गरिएको छ । नेपाल क्रिकेट सङ्घ (क्यान) ले बुधबार (आज)...
+                        </label>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-4">
+                        <img src="img/1.jpg" width="100%;">
+                      </div>
+                      <div class="col-8">
+                        <h5>
+                          लिभरपुलमाथि रियलको सानदार जित
+                        </h5>
+                        <label class="pardesh_body_2_text" style="text-align:justify;">
+                            संयुक्त अरब इमिरेट्स (युएई) मा बिहीबारदेखि सुरु हुने आइसिसी यू–१९ विश्वकप एसिया छनोटमा सहभागी हुने नेपाली युवा क्रिकेट टोलीको बिदाइ गरिएको छ । नेपाल क्रिकेट सङ्घ (क्यान) ले बुधबार (आज)...
+                        </label>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-4">
+                        <img src="img/2.jpg" width="100%;">
+                      </div>
+                      <div class="col-8">
+                        <h5>
+                          लिभरपुलमाथि रियलको सानदार जित
+                        </h5>
+                        <label class="pardesh_body_2_text" style="text-align:justify;">
+                            संयुक्त अरब इमिरेट्स (युएई) मा बिहीबारदेखि सुरु हुने आइसिसी यू–१९ विश्वकप एसिया छनोटमा सहभागी हुने नेपाली युवा क्रिकेट टोलीको बिदाइ गरिएको छ । नेपाल क्रिकेट सङ्घ (क्यान) ले बुधबार (आज)...
+                        </label>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-4">
+                        <img src="img/add.png" width="100%;">
+                      </div>
+                      <div class="col-8">
+                        <h5>
+                          लिभरपुलमाथि रियलको सानदार जित
+                        </h5>
+                        <label class="pardesh_body_2_text" style="text-align:justify;">
+                            संयुक्त अरब इमिरेट्स (युएई) मा बिहीबारदेखि सुरु हुने आइसिसी यू–१९ विश्वकप एसिया छनोटमा सहभागी हुने नेपाली युवा क्रिकेट टोलीको बिदाइ गरिएको छ । नेपाल क्रिकेट सङ्घ (क्यान) ले बुधबार (आज)...
+                        </label>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-4">
+                        <img src="img/4.jpg" width="100%;">
+                      </div>
+                      <div class="col-8">
+                        <h5>
+                          लिभरपुलमाथि रियलको सानदार जित
+                        </h5>
+                        <label class="pardesh_body_2_text" style="text-align:justify;">
+                            संयुक्त अरब इमिरेट्स (युएई) मा बिहीबारदेखि सुरु हुने आइसिसी यू–१९ विश्वकप एसिया छनोटमा सहभागी हुने नेपाली युवा क्रिकेट टोलीको बिदाइ गरिएको छ । नेपाल क्रिकेट सङ्घ (क्यान) ले बुधबार (आज)...
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3">
+                  <div class="sport_body_3">
+                    <div class="row">
+                      <div class="col-lg-12 col-6">
+                        <div class="sport_body_1">
+                          <img src="img/4.jpg" width="100%;">
+                          <h4 style="padding-top: 20px;">
+                            क्रिकेट टोलीको बिदाइ
+                          </h4>
+                        </div>
+                      </div>
+                      <div class="col-lg-12 col-6">
+                        <div class="sport_body_1">
+                          <img src="img/4.jpg" width="100%;">
+                          <h4 style="padding-top: 20px;">
+                            क्रिकेट टोलीको बिदाइ
+                          </h4>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="pradesh7" role="tabpanel" aria-labelledby="pradeshTab7">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-lg-5">
+                  <div class="sport_body_1">
+                    <img src="img/4.jpg" width="100%;">
+                    <h2 style="padding-top: 20px;">
+                      प्रदेश 7 यू–१९ क्रिकेट टोलीको बिदाइ
+                    </h2>
+                    <label style="text-align:justify;">
+                      संयुक्त अरब इमिरेट्स (युएई) मा बिहीबारदेखि सुरु हुने आइसिसी यू–१९ विश्वकप एसिया छनोटमा सहभागी हुने नेपाली युवा क्रिकेट टोलीको बिदाइ गरिएको छ । नेपाल क्रिकेट सङ्घ (क्यान) ले बुधबार (आज)...
+                    </label>
+                  </div>
+                </div>
+                <div class="col-lg-4">
+                  <div class="sport_body_2">
+                    <div class="row">
+                      <div class="col-4">
+                        <img src="img/2.jpg" width="100%;">
+                      </div>
+                      <div class="col-8">
+                        <h5>
+                          लिभरपुलमाथि रियलको सानदार जित
+                        </h5>
+                        <label class="pardesh_body_2_text" style="text-align:justify;">
+                            संयुक्त अरब इमिरेट्स (युएई) मा बिहीबारदेखि सुरु हुने आइसिसी यू–१९ विश्वकप एसिया छनोटमा सहभागी हुने नेपाली युवा क्रिकेट टोलीको बिदाइ गरिएको छ । नेपाल क्रिकेट सङ्घ (क्यान) ले बुधबार (आज)...
+                        </label>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-4">
+                        <img src="img/3.jpg" width="100%;">
+                      </div>
+                      <div class="col-8">
+                        <h5>
+                          लिभरपुलमाथि रियलको सानदार जित
+                        </h5>
+                        <label class="pardesh_body_2_text" style="text-align:justify;">
+                            संयुक्त अरब इमिरेट्स (युएई) मा बिहीबारदेखि सुरु हुने आइसिसी यू–१९ विश्वकप एसिया छनोटमा सहभागी हुने नेपाली युवा क्रिकेट टोलीको बिदाइ गरिएको छ । नेपाल क्रिकेट सङ्घ (क्यान) ले बुधबार (आज)...
+                        </label>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-4">
+                        <img src="img/1.jpg" width="100%;">
+                      </div>
+                      <div class="col-8">
+                        <h5>
+                          लिभरपुलमाथि रियलको सानदार जित
+                        </h5>
+                        <label class="pardesh_body_2_text" style="text-align:justify;">
+                            संयुक्त अरब इमिरेट्स (युएई) मा बिहीबारदेखि सुरु हुने आइसिसी यू–१९ विश्वकप एसिया छनोटमा सहभागी हुने नेपाली युवा क्रिकेट टोलीको बिदाइ गरिएको छ । नेपाल क्रिकेट सङ्घ (क्यान) ले बुधबार (आज)...
+                        </label>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-4">
+                        <img src="img/2.jpg" width="100%;">
+                      </div>
+                      <div class="col-8">
+                        <h5>
+                          लिभरपुलमाथि रियलको सानदार जित
+                        </h5>
+                        <label class="pardesh_body_2_text" style="text-align:justify;">
+                            संयुक्त अरब इमिरेट्स (युएई) मा बिहीबारदेखि सुरु हुने आइसिसी यू–१९ विश्वकप एसिया छनोटमा सहभागी हुने नेपाली युवा क्रिकेट टोलीको बिदाइ गरिएको छ । नेपाल क्रिकेट सङ्घ (क्यान) ले बुधबार (आज)...
+                        </label>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-4">
+                        <img src="img/add.png" width="100%;">
+                      </div>
+                      <div class="col-8">
+                        <h5>
+                          लिभरपुलमाथि रियलको सानदार जित
+                        </h5>
+                        <label class="pardesh_body_2_text" style="text-align:justify;">
+                            संयुक्त अरब इमिरेट्स (युएई) मा बिहीबारदेखि सुरु हुने आइसिसी यू–१९ विश्वकप एसिया छनोटमा सहभागी हुने नेपाली युवा क्रिकेट टोलीको बिदाइ गरिएको छ । नेपाल क्रिकेट सङ्घ (क्यान) ले बुधबार (आज)...
+                        </label>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-4">
+                        <img src="img/4.jpg" width="100%;">
+                      </div>
+                      <div class="col-8">
+                        <h5>
+                          लिभरपुलमाथि रियलको सानदार जित
+                        </h5>
+                        <label class="pardesh_body_2_text" style="text-align:justify;">
+                            संयुक्त अरब इमिरेट्स (युएई) मा बिहीबारदेखि सुरु हुने आइसिसी यू–१९ विश्वकप एसिया छनोटमा सहभागी हुने नेपाली युवा क्रिकेट टोलीको बिदाइ गरिएको छ । नेपाल क्रिकेट सङ्घ (क्यान) ले बुधबार (आज)...
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3">
+                  <div class="sport_body_3">
+                    <div class="row">
+                      <div class="col-lg-12 col-6">
+                        <div class="sport_body_1">
+                          <img src="img/4.jpg" width="100%;">
+                          <h4 style="padding-top: 20px;">
+                            क्रिकेट टोलीको बिदाइ
+                          </h4>
+                        </div>
+                      </div>
+                      <div class="col-lg-12 col-6">
+                        <div class="sport_body_1">
+                          <img src="img/4.jpg" width="100%;">
+                          <h4 style="padding-top: 20px;">
+                            क्रिकेट टोलीको बिदाइ
+                          </h4>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
 
+    <!-- kalaShahitya -->
+    <div class="kalaShahitya padding_adjust2">
+      <div class="kalaShahitya_head">
+        <div class="row">
+          <div class="col-6">
+            <h4>कला/साहित्य</h4>
+          </div>
+          <div class="col-6 text-end">
+            <label>सबै <i class="fa-solid fa-angles-right"></i></label>
+          </div>
+        </div>
+      </div>
+      <div class="kalaShahitya_body kala_body">
+        <div class="row">
+          <div class="col-lg-3 col-md-12">
+            <div class="row">
+              <div class="col-lg-12 col-md-6">
+                <div class="img_card">
+                  <div class="img_part">
+                    <img src="img/1.jpg" width="100%;">
+                  </div>
+                  <div class="img_title">
+                    <h4>
+                      पोखरामा शुक्रबारबाट
+                    </h4>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-12 col-md-6">
+                <div class="img_card">
+                  <div class="img_part">
+                    <img src="img/2.jpg" width="100%;">
+                  </div>
+                  <div class="img_title">
+                    <h4>
+                      अष्ट्रेलियामा अन्तर्राष्ट्रिय
+                    </h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="img_card">
+              <div class="img_part">
+                <img src="img/4.jpg" width="100%;">
+              </div>
+              <div class="img_title">
+                <h4>
+                  विद्यार्थीले हप्तामा ४८ घण्टा काम गर्न 
+                </h4>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-12">
+            <div class="row">
+              <div class="col-lg-12 col-md-6">
+                <div class="img_card">
+                  <div class="img_part">
+                    <img src="img/3.jpg" width="100%;">
+                  </div>
+                  <div class="img_title">
+                    <h4>
+                      हप्तामा ४८ घण्टा 
+                    </h4>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-12 col-md-6">
+                <div class="img_card">
+                  <div class="img_part">
+                    <img src="img/2.jpg" width="100%;">
+                  </div>
+                  <div class="img_title">
+                    <h4>
+                      नी समूहको 
+                    </h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        
+
+      </div>
+    </div>
+
+
+    <!-- add part -->
+    <div class="padding_adjust2">
+      <img src="img/add2.gif" width="100%;">
+    </div>
+
+<!--sport  -->
+    <div class="sport padding_adjust2">
+      <div class="sport_head">
+        <div class="row">
+          <div class="col-6">
+            <h4>खेलकुद</h4>
+          </div>
+          <div class="col-6 text-end">
+            <label>सबै <i class="fa-solid fa-angles-right"></i></label>
+          </div>
+        </div>
+      </div>
+      <div class="sport_body">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-lg-5">
+              <div class="sport_body_1">
+                <img src="img/2.jpg" width="100%;">
+                <h2 style="padding-top: 20px;">
+                  यू–१९ क्रिकेट टोलीको बिदाइ
+                </h2>
+                <label style="text-align:justify;">
+                  संयुक्त अरब इमिरेट्स (युएई) मा बिहीबारदेखि सुरु हुने आइसिसी यू–१९ विश्वकप एसिया छनोटमा सहभागी हुने नेपाली युवा क्रिकेट टोलीको बिदाइ गरिएको छ । नेपाल क्रिकेट सङ्घ (क्यान) ले बुधबार (आज)...
+                </label>
+              </div>
+            </div>
+            <div class="col-lg-7">
+              <div class="row">
+                <div class="col-lg-7 col-md-7">
+                  <div class="sport_body_2">
+                    <div class="row">
+                      
+                      <div class="col-12">
+                        <h5>
+                          त अरब इमिरेट्स (युएई) मा बिहीबारदेखि सुरु हुने यू–१९ क्रिकेट टोलीको बिदाइ लिभरपुलमाथि रियलको सानदार जित
+                        </h5>
+                        
+                      </div>
+                    </div>
+                    <div class="row">
+                      
+                      <div class="col-12">
+                        <h5>
+                         आइसिसी यू–१९ विश्वकप एसिया छनोटमा सहभागी हुने नेपाली युवा क्रिकेट टोलीको बि
+                        </h5>
+                        
+                      </div>
+                    </div>
+                    <div class="row">
+                      
+                      <div class="col-12">
+                        <h5>
+                          आइसिसी यू–१९ विश्वकप एसिया छनोटमा बिदाइ गरिएको छ । नेपाल क्रिकेट सङ्घ (क्यान) ले बुधबार (आज)...
+                        </h5>
+                        
+                      </div>
+                    </div>
+                    <div class="row">
+                      
+                      <div class="col-12">
+                        <h5>
+                          छनोटमा सहभागी हुने नेपाली  नेपाल क्रिकेट सङ्घ (क्यान) ले बुधबार (आज)...
+                        </h5>
+                        
+                      </div>
+                    </div>
+                    <div class="row">
+                      
+                      <div class="col-12">
+                        <h5>
+                          सानदार जितआइसिसी यू–१९ विश्वकप एसिया  (आज)...
+                        </h5>
+                        
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-5 col-md-5">
+                  <div class="sport_body_3">
+                    <img src="img/add2.png" width="100%;">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     
-    
+
+
+    <div class="fotterpart padding_adjust2">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-6 col-md-12">
+            <img src="img/logo-white.png" width="50%;">
+            <label style="margin-bottom: 15px;">हाम्रो बारेमा हात्तीपाइले रोगविरुद्धको औषधि सेवन अभियानलाई सफल पार्न मन्त्री गिरीको  बिहीबारदेखि सुरु हुने आइसिसी यू–१९ विश्वकप</label>
+          </div>
+          <div class="col-lg-2 col-md-6">
+            <h4>महत्वपूर्ण लिन्कहरु</h4>
+            <p>गृहपृष्ठ</p>
+            <p>ताजा अपडेट</p>
+            <p>प्रदेश</p>
+            <p>राजनीती</p>
+            <p>हेडलाइन</p>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <h4>ठेगाना</h4>
+            <label>कर्पोरेट टावर, तीनकुने, काठमाडौं</label>
+            <h4>सम्पर्क नम्बर</h4>
+            <label>०१-४११२३०५ |०१-४११२३२७ |०१-४११२४९९</label>
+            <label>annapurnapost.com@gmail.com  marketing.3ni@amnnepal.com</label>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="fotter_ribber padding_adjust2" style="margin-top: 3px;">
+      <div class="row">
+        <div class="col-6">
+          <label>
+            Copyright © 2022 | All rights reserved.
+          </label>
+        </div>
+        <div class="col-6 text-end">
+          <label>Powered by</label>
+          <img src="img/sno.png" height="30px;">
+          <label> | </label>
+          <img src="img/prixa.png" height="30px;">
+        </div>
+      </div>
+    </div>
 
 
 
-
+<!-- bootstrap -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="js/main.js"></script>
+<!-- owlcarousel -->
+<script src="owlcarousel/owl.carousel.min.js"></script>
 
-    <script >
-      
-//       let height = window.innerHeight;
-// if (height > 500){ function testScroll(ev){
-// //Will set the position to FIXED with TOP=80px when user scrolls 850px below. 
-// document.getElementById("targetID").style.display = "none";
-// window.onscroll=testScroll; };
-</script>
+<!-- my js -->
+<script src="js/main.js"></script>
+
+    
 </body>
 </html>
